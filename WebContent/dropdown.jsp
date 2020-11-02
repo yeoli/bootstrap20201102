@@ -10,28 +10,22 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <title>Insert title here</title>
 </head>
-<body> <!-- 주석:ctrl+shift+/ -->
-	<table class="table">
-	<tr>
-			<th>adsfsdf</th>
-			<th>afdfas</th>
-			<th>sdfdsfd</th>
-	</tr>
-	<tr>
-		<td>Lorem.</td>
-		<td>Molestiae.</td>
-		<td>Velit.</td>
-	</tr>
-	<tr>
-		<td>Lorem.</td>
-		<td>Dolores.</td>
-		<td>Minus.</td>
-	</tr>
-	<tr>
-		<td>Lorem.</td>
-		<td>At.</td>
-		<td>Recusandae.</td>
-	</tr>
-	</table>
+<body>
+<div class="dropdown">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu">
+   <h5 class="dropdown-header">Dropdown header</h5>
+    <a class="dropdown-item" href="https://www.naver.com/">Link 1</a>
+    <a class="dropdown-item" href="#">Link 2</a>
+    <a class="dropdown-item" href="#">Link 3</a>
+    <div class="dropdown-divider"></div>
+    <div class="dropdown-header">adf;eem d</div>
+    <a href="#" class="dropdown-item">Link 4</a>
+
+  </div>
+</div>
+
 </body>
 </html>

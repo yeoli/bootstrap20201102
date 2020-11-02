@@ -10,28 +10,56 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <title>Insert title here</title>
 </head>
-<body> <!-- 주석:ctrl+shift+/ -->
-	<table class="table">
+<body>
+<div class="container">
+<!-- table.table>tr>th*3>lorem1^^tr*3>td*3>lorem1 -->
+<table class="table">
 	<tr>
-			<th>adsfsdf</th>
-			<th>afdfas</th>
-			<th>sdfdsfd</th>
+		<th>Lorem.</th>
+		<th>Aut.</th>
+		<th>Eligendi?</th>
 	</tr>
 	<tr>
 		<td>Lorem.</td>
+		<td>Ipsum.</td>
+		<td>Debitis.</td>
+	</tr>
+	<tr>
+		<td>Lorem.</td>
+		<td>Ipsum!</td>
+		<td>Incidunt.</td>
+	</tr>
+	<tr>
+		<td>Lorem.</td>
+		<td>Eos?</td>
+		<td>Ut.</td>
+	</tr>
+</table>
+</div>
+
+<div class="container-fluid">
+<table class="table">
+	<tr>
+		<th>Lorem.</th>
+		<th>Magni.</th>
+		<th>Illum?</th>
+	</tr>
+	<tr>
+		<td>Lorem.</td>
+		<td>Omnis.</td>
 		<td>Molestiae.</td>
-		<td>Velit.</td>
 	</tr>
 	<tr>
 		<td>Lorem.</td>
-		<td>Dolores.</td>
-		<td>Minus.</td>
+		<td>Aperiam.</td>
+		<td>Expedita.</td>
 	</tr>
 	<tr>
 		<td>Lorem.</td>
-		<td>At.</td>
-		<td>Recusandae.</td>
+		<td>Vitae!</td>
+		<td>Quasi!</td>
 	</tr>
-	</table>
+</table>
+</div>
 </body>
 </html>

@@ -9,29 +9,27 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <title>Insert title here</title>
+<style>
+.text-white {
+	color:red;
+}
+</style>
 </head>
-<body> <!-- 주석:ctrl+shift+/ -->
-	<table class="table">
-	<tr>
-			<th>adsfsdf</th>
-			<th>afdfas</th>
-			<th>sdfdsfd</th>
-	</tr>
-	<tr>
-		<td>Lorem.</td>
-		<td>Molestiae.</td>
-		<td>Velit.</td>
-	</tr>
-	<tr>
-		<td>Lorem.</td>
-		<td>Dolores.</td>
-		<td>Minus.</td>
-	</tr>
-	<tr>
-		<td>Lorem.</td>
-		<td>At.</td>
-		<td>Recusandae.</td>
-	</tr>
-	</table>
+<body>
+<div class="container">
+	<h3 class="text-danger">
+	Lorem ipsum dolor.</h3>
+	<h1 class="text-muted">
+	Lorem ipsum dolor.</h1>
+	<h3 class="text-info">
+	Lorem ipsum dolor.</h3>
+</div>
+
+<div class="container mt-3 text-white">
+	<h3 class="bg-primary">
+	Lorem ipsum dolor.</h3>
+	<h3 class="bg-info">
+	Lorem ipsum dolor.</h3>
+</div>
 </body>
 </html>
